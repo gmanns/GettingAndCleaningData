@@ -1,12 +1,13 @@
 # GettingAndCleaningData
 
 ###Load required packages
-require(dplyr)
-require(data.table)
-require(tidyr)
+Loads the required libraries that will be needed for the assignment.
+    require(dplyr)
+    require(data.table)
+    require(tidyr)
 
 
-ProjectPath<-getwd()
+    ProjectPath<-getwd()
 
 ##1. Merge the training and test sets to create one data set
 ###read in test files
